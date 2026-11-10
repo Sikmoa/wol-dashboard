@@ -54,7 +54,7 @@
 
             try {
                 // REPLACE WITH YOUR DEPLOYED BACKEND RELAY URL
-                const response = await fetch('https://wol-relay-7zq3.onrender.com/', {
+                const response = await fetch('https://wol-relay-7zq3.onrender.com/wake', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ passwordHash })
